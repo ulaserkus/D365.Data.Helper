@@ -20,12 +20,11 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
         Entity entity = await onlineEntityService.GetEntityByIdAsync("00000000-0000-0000-0000-000000000000", "account"); //Returns Entity
      </li>
      <li>
-        CreateEntityAsync
+         CreateEntityAsync
          Entity createEntity = new Entity("contact");  //Build related Entity
          createEntity["firstname"] = "Contact Firstname";
          createEntity["lastname"] = "Contact Lastname";
          createEntity["emailaddress1"] = "Contact Email";
- 
          Guid newId = await onlineEntityService.CreateEntityAsync(createEntity); //Returns Created Entity Id
      </li>
      <li>
