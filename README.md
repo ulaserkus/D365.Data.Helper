@@ -10,9 +10,12 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
   
   IOnlineEntityService onlineEntityService = crmOnline.GetOnlineService();  //Get Online Service
  
+  <ul>
+    <li>
     #GetAllEntititesAsync
         List<Entity> entities = await onlineEntityService.GetAllEntitiesAsync("contact"); //Returns List of Entity
     #
+     </li>  
         
     #GetEntityByIdAsync
         Entity entity = await onlineEntityService.GetEntityByIdAsync("00000000-0000-0000-0000-000000000000", "account"); //Returns Entity
@@ -30,5 +33,5 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
     #DeleteEntityAsync
           bool isSuccess = await onlineEntityService.DeleteEntityAsync("contact", "00000000-0000-0000-0000-000000000000");//Returns success status
     #
-         
+    </ul>      
         !! Note if you see an error please contact thanks.
