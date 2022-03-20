@@ -7,3 +7,4 @@ C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Debug\netstand
 C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Debug\netstandard2.0\D365.Data.Helper.csproj.CoreCompileInputs.cache
 C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Debug\netstandard2.0\D365.Data.Helper.dll
 C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Debug\netstandard2.0\D365.Data.Helper.pdb
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Debug\netstandard2.0\D365.Data.Helper.csproj.AssemblyReference.cache

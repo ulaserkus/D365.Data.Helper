@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "D365.Data.Helper/1.0.0": {
+      "D365.Data.Helper/2.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
@@ -162,7 +162,7 @@
     }
   },
   "libraries": {
-    "D365.Data.Helper/1.0.0": {
+    "D365.Data.Helper/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
