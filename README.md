@@ -4,7 +4,7 @@ Dynamics Crm Web Service Asistant DLL. This library helps you to manipulate data
 
 <h1>Usage of Dynamics 365 Online</h1>
 
-string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dynamics.com/api/data/v9.1/; ClientId=<Client-Id>;ClientSecret=<Client-Secret>;                                              Resource=https://<Organization-Name>.crm4.dynamics.com/; TenantId=<Tenant-Id>"; //Set connection string
+string connectionStringOnline = "ApiUrl=https://Organization-Name.api.crm4.dynamics.com/api/data/v9.1/; ClientId=Your-Client-Id;ClientSecret=Your-Client-Secret;                                              Resource=https://Organization-Name.crm4.dynamics.com/; TenantId=Your-Tenant-Id"; //Set connection string
   
   Crm365 crmOnline = new Crm365(connectionStringOnline); //Init connection
   
