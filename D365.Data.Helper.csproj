@@ -2,16 +2,24 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<ApplicationIcon />
 		<Win32Resource />
-		<Version>2.0.0</Version>
+		<Version>2.0.0.1</Version>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>sign.snk.pfx</AssemblyOriginatorKeyFile>
+		<AssemblyVersion>2.0.0.1</AssemblyVersion>
+		<FileVersion>2.0.0.1</FileVersion>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE" Pack="true" PackagePath=""/>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="Pluralize.NET" Version="1.0.2" />
 		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
 	</ItemGroup>
-
 
 </Project>

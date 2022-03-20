@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>D365.Data.Helper</id>
+    <version>2.0.0.1</version>
+    <authors>D365.Data.Helper</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="Pluralize.NET" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\bin\Release\netstandard2.0\D365.Data.Helper.dll" target="lib\netstandard2.0\D365.Data.Helper.dll" />
+    <file src="C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\LICENSE" target="LICENSE" />
+  </files>
+</package>
