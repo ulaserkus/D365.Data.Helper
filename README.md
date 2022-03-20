@@ -21,7 +21,7 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
      </li>
      <li>
          CreateEntityAsync
-         Entity createEntity = new Entity("contact"); </br> //Build related Entity
+         Entity createEntity = new Entity("contact"); //Build related Entity </br> 
          createEntity["firstname"] = "Contact Firstname"; </br>
          createEntity["lastname"] = "Contact Lastname";  </br>
          createEntity["emailaddress1"] = "Contact Email";  </br>
