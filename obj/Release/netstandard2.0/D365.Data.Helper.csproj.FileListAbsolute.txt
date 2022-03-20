@@ -1,0 +1,10 @@
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\bin\Release\netstandard2.0\D365.Data.Helper.deps.json
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\bin\Release\netstandard2.0\D365.Data.Helper.dll
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\bin\Release\netstandard2.0\D365.Data.Helper.pdb
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.csproj.AssemblyReference.cache
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.AssemblyInfoInputs.cache
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.AssemblyInfo.cs
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.csproj.CoreCompileInputs.cache
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.dll
+C:\Users\ulas\Desktop\Proje\D365.Data.Helper\D365.Data.Helper\obj\Release\netstandard2.0\D365.Data.Helper.pdb
