@@ -48,7 +48,7 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
                             updateEntity = Guid.Parse("00000000-0000-0000-0000-000000000000");// record id
                             updateEntity["firstname"] = "Contact Firstname"; </br>
                             updateEntity["lastname"] = "Contact Lastname"; </br>
-                            updateEntity["emailaddress1"] = "Contact Email"; </br 
+                            updateEntity["emailaddress1"] = "Contact Email"; </br>
                             bool isSuccess=await onlineEntityService.UpdateEntityAsync(updateEntity); //Returns success status 
                         </li>
                         <li>
@@ -123,7 +123,7 @@ string connectionStringOnPremise = "ApiUrl=http://<Crm-Server-Ip>/api/data/v9.0/
                                                 record id
                                                 updateEntity["firstname"] = "Contact Firstname"; </br>
                                                 updateEntity["lastname"] = "Contact Lastname"; </br>
-                                                updateEntity["emailaddress1"] = "Contact Email"; </br 
+                                                updateEntity["emailaddress1"] = "Contact Email"; </br> 
                                                 bool isSuccess=await onPremiseEntityService.UpdateEntityAsync(updateEntity); 
                                             </li>
 
