@@ -42,14 +42,14 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
                             bool isSuccess = await onlineEntityService.DeleteEntityAsync("contact",
                             "00000000-0000-0000-0000-000000000000");//Returns success status
                         </li>
-                        <li>
+                        <>
                             <h3>UpdateEntityAsync</h3>
                             Entity updateEntity = new Entity("contact"); //Build related Entity </br>
                             updateEntity = Guid.Parse("00000000-0000-0000-0000-000000000000");// record id
                             updateEntity["firstname"] = "Contact Firstname"; </br>
                             updateEntity["lastname"] = "Contact Lastname"; </br>
-                            updateEntity["emailaddress1"] = "Contact Email"; </br bool isSuccess=await
-                                onlineEntityService.UpdateEntityAsync(updateEntity); //Returns success status </li>
+                            updateEntity["emailaddress1"] = "Contact Email"; </br 
+                            bool isSuccess=await onlineEntityService.UpdateEntityAsync(updateEntity); //Returns success status 
                         </li>
                         <li>
                             <h3>GetEntitiesByFetchXmlAsync</h3>
@@ -116,7 +116,7 @@ string connectionStringOnPremise = "ApiUrl=http://<Crm-Server-Ip>/api/data/v9.0/
                                                 bool isSuccess = await onPremiseEntityService.DeleteEntityAsync("contact",
                                                 "00000000-0000-0000-0000-000000000000");//Returns success status
                                             </li>
-                                            <li>
+                                            <>
                                                 <h3>UpdateEntityAsync</h3>
                                                 Entity updateEntity = new Entity("contact"); //Build related Entity</br>
                                                 updateEntity = Guid.Parse("00000000-0000-0000-0000-000000000000");//
@@ -124,7 +124,7 @@ string connectionStringOnPremise = "ApiUrl=http://<Crm-Server-Ip>/api/data/v9.0/
                                                 updateEntity["firstname"] = "Contact Firstname"; </br>
                                                 updateEntity["lastname"] = "Contact Lastname"; </br>
                                                 updateEntity["emailaddress1"] = "Contact Email"; </br 
-                                                bool isSuccess=await onPremiseEntityService.UpdateEntityAsync(updateEntity); </li>
+                                                bool isSuccess=await onPremiseEntityService.UpdateEntityAsync(updateEntity); 
                                             </li>
 
                                             <li>
