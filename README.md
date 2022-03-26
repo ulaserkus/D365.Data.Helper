@@ -53,23 +53,12 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
                         </li>
                         <li>
                             <h3>GetEntitiesByFetchXmlAsync</h3>
-                            string fetchXml = @"<fetch version='1.0' output-format='xml-platform' mapping='logical'
-                                distinct='false'>
-                                <entity name='contact'>
-                                    <attribute name='fullname' />
-                                    <attribute name='telephone1' />
-                                    <attribute name='contactid' />
-                                    <order attribute='fullname' descending='false' />
-                                    <filter type='and'>
-                                        <condition attribute='new_mailfileisuploaded' operator='eq' value='0' />
-                                    </filter>
-                                </entity>
-                            </fetch>
-                            ";
-                            List<Entity> entities = await onlineEntityService.GetEntitiesByFetchXmlAsync("contact",
-                                fetchXml);
-
+                            string fetchXml = @"fetchXML Query"; </br>
+                            await onlineEntityService.GetEntitiesByFetchXmlAsync("contact",fetchXml);
+                            //Returns List of Entity
                         </li>
+                            
+                        
                     </ul>
                     
 <h1>Usage of Dynamics 365 Onpremise</h1>
@@ -126,22 +115,13 @@ string connectionStringOnPremise = "ApiUrl=http://<Crm-Server-Ip>/api/data/v9.0/
                                                 updateEntity["emailaddress1"] = "Contact Email"; </br> 
                                                 bool isSuccess=await onPremiseEntityService.UpdateEntityAsync(updateEntity); 
                                             </li>
-
                                             <li>
                                                 <h3>GetEntitiesByFetchXmlAsync</h3>
-                                                string fetchXml = @"<fetch version='1.0' output-format='xml-platform'
-                                                    mapping='logical' distinct='false'>
-                                                    <entity name='contact'>
-                                                        <attribute name='fullname' />
-                                                        <attribute name='telephone1' />
-                                                        <attribute name='contactid' />
-                                                        <order attribute='fullname' descending='false' />
-                                                    </entity>
-                                                </fetch>
-                                                ";
-                                                List<Entity> entities = await onPremiseEntityService.GetEntitiesByFetchXmlAsync("contact", fetchXml);
-
+                                                string fetchXml = @"fetchXML Query"; </br>
+                                                await onPremiseEntityService.GetEntitiesByFetchXmlAsync("contact",fetchXml);
+                                                //Returns List of Entity
                                             </li>
+                                                
                                         </ul>
 
                                         !! Note if you see an error please contact thanks.
