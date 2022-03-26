@@ -50,7 +50,7 @@ string connectionStringOnline = "ApiUrl=https://<Organization-Name>.api.crm4.dyn
                             updateEntity["lastname"] = "Contact Lastname"; </br>
                             updateEntity["emailaddress1"] = "Contact Email"; </br bool isSuccess=await
                                 onlineEntityService.UpdateEntityAsync(updateEntity); //Returns success status </li>
-
+                        </li>
                         <li>
                             <h3>GetEntitiesByFetchXmlAsync</h3>
                             string fetchXml = @"<fetch version='1.0' output-format='xml-platform' mapping='logical'
@@ -118,17 +118,15 @@ string connectionStringOnPremise = "ApiUrl=http://<Crm-Server-Ip>/api/data/v9.0/
                                             </li>
                                             <li>
                                                 <h3>UpdateEntityAsync</h3>
-                                                Entity updateEntity = new Entity("contact"); //Build related Entity
-                                                </br>
+                                                Entity updateEntity = new Entity("contact"); //Build related Entity</br>
                                                 updateEntity = Guid.Parse("00000000-0000-0000-0000-000000000000");//
                                                 record id
                                                 updateEntity["firstname"] = "Contact Firstname"; </br>
                                                 updateEntity["lastname"] = "Contact Lastname"; </br>
                                                 updateEntity["emailaddress1"] = "Contact Email"; </br 
-                                                bool isSuccess=await onPremiseEntityService.UpdateEntityAsync(updateEntity);//Returns success status 
-        
+                                                bool isSuccess=await onPremiseEntityService.UpdateEntityAsync(updateEntity); </li>
                                             </li>
-                                           
+
                                             <li>
                                                 <h3>GetEntitiesByFetchXmlAsync</h3>
                                                 string fetchXml = @"<fetch version='1.0' output-format='xml-platform'
