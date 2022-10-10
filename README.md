@@ -39,7 +39,7 @@ Usage of Dynamics 365 Online
 
                 *UpdateEntityAsync
                 Entity updateEntity = new Entity("contact"); //Build related Entity
-                updateEntity = Guid.Parse("00000000-0000-0000-0000-000000000000");// record id
+                updateEntity.Id = Guid.Parse("00000000-0000-0000-0000-000000000000");// record id
                 updateEntity["firstname"] = "Contact Firstname";
                 updateEntity["lastname"] = "Contact Lastname";
                 updateEntity["emailaddress1"] = "Contact Email";
@@ -79,7 +79,6 @@ Usage of Dynamics 365 Onpremise
 
                     *CreateEntityAsync
                     Entity createEntity = new Entity("contact"); //Build related Entity
-
                     createEntity["firstname"] = "Contact Firstname";
                     createEntity["lastname"] = "Contact Lastname";
                     createEntity["emailaddress1"] = "Contact Email";
@@ -92,7 +91,7 @@ Usage of Dynamics 365 Onpremise
 
                     *UpdateEntityAsync
                     Entity updateEntity = new Entity("contact"); //Build related Entity
-                    updateEntity = Guid.Parse("00000000-0000-0000-0000-000000000000");//
+                    updateEntity.Id = Guid.Parse("00000000-0000-0000-0000-000000000000");//
                     record id
                     updateEntity["firstname"] = "Contact Firstname";
                     updateEntity["lastname"] = "Contact Lastname";
