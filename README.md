@@ -3,7 +3,7 @@ D365.Data.Helper
 Dynamics Crm Web Service Asistant DLL. This library helps you to manipulate data on Dynamics Crm Onpremise or Dynamics
 365 Online
 
-<h1>Usage of Dynamics 365 Online</h1>
+Usage of Dynamics 365 Online
 
             string connectionStringOnline = "ApiUrl=https://Organization-Name.api.crm4.dynamics.com/api/data/v9.1/; ClientId=Client-Id;ClientSecret=Client-Secret; Resource=https://Organization-Name.crm4.dynamics.com/; TenantId=Tenant-Id"; //Set connection string
 
@@ -52,7 +52,7 @@ Dynamics Crm Web Service Asistant DLL. This library helps you to manipulate data
                 //Returns List of Entity
 
 
-<h1>Usage of Dynamics 365 Onpremise</h1>
+Usage of Dynamics 365 Onpremise
 
                 string connectionStringOnPremise = "ApiUrl=http://<Crm-Server-Ip>/api/data/v9.0/; UserName=<Crm-Username>; Password =<Crm-Password>;";//Set connection string
 
